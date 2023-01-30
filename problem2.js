@@ -9,6 +9,6 @@ function joinArrayRemoveDuplicate(arrayA, arrayB) {
     }
     console.log(uniqueArr);
 }
-
+console.log(joinArrayRemoveDuplicate(['apel', 'nanas'], ['anggur', 'apel']))
 console.log(joinArrayRemoveDuplicate(["samsung", "apple"], ["apple", "sony", "xiaomi"]))
 console.log(joinArrayRemoveDuplicate(["apel", "anggur"], ["lemon", "leci", "nanas"]))

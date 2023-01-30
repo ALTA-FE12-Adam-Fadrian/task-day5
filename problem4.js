@@ -12,7 +12,7 @@ function meanMedian(arrayInput) {
       let index =  Math.floor(arrayInput.length / 2)
       median = (arrayInput[index] + arrayInput[index -1]) /2
   }
-  return [mean, median]
+  return `mean : ${mean}, median : ${median}`
 }
 console.log(meanMedian([1, 2, 3, 4]))          // 2.5 2.5
 console.log(meanMedian([1, 2, 3, 4, 5]))       // 3 3
